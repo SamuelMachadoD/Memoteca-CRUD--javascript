@@ -1,70 +1,73 @@
 {
   "pensamentos": [
     {
-      "id": "4c7d",
-      "favorito": false,
-      "conteudo": "Da vida reclama, mas sem ela vive!",
-      "autoria": "Mestre Yoda"
-    },
-    {
-      "id": "68uy",
-      "favorito": true,
-      "conteudo": "Esse é de laranja que parece de limão, mas tem gosto de tamarindo!",
-      "autoria": "Chaves"
-    },
-    {
       "id": "b807",
       "favorito": true,
       "conteudo": "Melhor professor, o fracasso é!",
-      "autoria": "Mestre Yoda"
+      "autoria": "Mestre Yoda",
+      "data": "2023-10-14T07:00:00.000Z"
     },
     {
       "id": "9f3c",
       "favorito": false,
       "conteudo": "Você não é todo mundo!",
-      "autoria": "Mãe"
+      "autoria": "Mãe",
+      "data": "2023-10-18T14:20:00.000Z"
     },
     {
       "id": "6a2b",
       "favorito": false,
       "conteudo": "Foi sem querer querendo!",
-      "autoria": "Chaves"
+      "autoria": "Chaves",
+      "data": "2023-10-10T11:15:00.000Z"
     },
     {
       "id": "7e2a",
       "favorito": false,
       "conteudo": "Que a força esteja com você!",
-      "autoria": "Mestre Yoda"
+      "autoria": "Mestre Yoda",
+      "data": "2023-10-16T17:45:00.000Z"
     },
     {
       "id": "5c8f",
       "favorito": false,
       "conteudo": "Resolver o bug não consegue? Esfriar a cabeça vc deve.",
-      "autoria": "Mestre Yoda"
+      "autoria": "Mestre Yoda",
+      "data": "2023-10-11T10:00:00.000Z"
     },
     {
       "id": "2d6e",
       "favorito": false,
       "conteudo": "Não faça drama, faça café! :)",
-      "autoria": "Dev"
+      "autoria": "Dev",
+      "data": "2023-10-17T16:30:00.000Z"
     },
     {
       "id": "8b4c",
       "favorito": false,
       "conteudo": "A vingança nunca é plena... mata a alma e a envenena...",
-      "autoria": "Seu Madruga"
+      "autoria": "Seu Madruga",
+      "data": "2023-10-19T15:00:00.000Z"
     },
     {
       "id": "3a23",
       "favorito": false,
       "conteudo": "To felizão",
-      "autoria": "Eu"
+      "autoria": "Eu",
+      "data": "2023-10-20T12:00:00.000Z"
     },
     {
       "id": "1d6e",
       "favorito": false,
       "conteudo": "teste",
-      "autoria": "eu"
+      "autoria": "eu",
+      "data": "2023-10-21T13:50:00.000Z"
+    },
+    {
+      "id": "d424",
+      "conteudo": "opa",
+      "autoria": "dev",
+      "data": "2024-11-22T00:00:00.000Z"
     }
   ]
 }
