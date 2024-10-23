@@ -9,19 +9,25 @@ const ui = {
         document.getElementById('pensamento-autoria').value = pensamento.autoria
     },
 
-    async renderizarPensamentos(){
+    async renderizarPensamentos(pensamentoFiltrado = null){
         const listaPensamentos = document.getElementById("lista-pensamentos")
         const mensagemVazia = document.getElementById('mensagem-vazia')
         listaPensamentos.innerHTML = ""
 
         try{
-            const pensamentos = await api.buscarPensamentos()
-            pensamentos.forEach(ui.adicionarPensamentoNaLista)
-            if(pensamentos.length === 0){
+
+            let pensamentoParaRenderizar
+            if(pensamentoFiltrado){
+                pensamentoParaRenderizar = pensamentoFiltrado;
+            }else{
+                pensamentoParaRenderizar = await api.buscarPensamentos()
+            }
+
+            if(pensamentoParaRenderizar.length === 0){
                 mensagemVazia.style.display = "block";
             } else {
                 mensagemVazia.style.display = "none";
-                pensamentos.forEach(ui.adicionarPensamentoNaLista)
+                pensamentoParaRenderizar.forEach(ui.adicionarPensamentoNaLista)
             }
         }
         catch(error){
